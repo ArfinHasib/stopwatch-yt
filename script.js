@@ -18,6 +18,7 @@ function startWatch() {
 }
 
 // Pause the watch
+// This is the best of the best
 function pauseWatch() {
     watch.classList.add("paused")
     clearInterval(timer)
